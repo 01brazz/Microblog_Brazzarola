@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Microblog Brazzarola</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="page-header">
+            <h1>Microblog <small>by Brazzarola</small></h1>
+        </div>
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="index.html">Home</a></li>
+            <li role="presentation"><a href="login.html">Login</a></li>
+            <li role="presentation"><a href="registration.html">Registration</a></li>
+            <li role="presentation"><a href="logout.html">Logout</a></li>
+        </ul>
+        <h2>Login</h2>
+        <br>
+        <form action="LoginServlet" method="post">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input style="width: 300px" type="text" class="form-control" id="name" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input style="width: 300px" type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <br>
+        <h3>Not registered yet?</h3>
+        <form action="registration.html" method="post">
+            <button type="submit" class="btn btn-default">Register</button>
+        </form>
+    </body>
+</html>

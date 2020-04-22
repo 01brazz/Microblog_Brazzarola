@@ -1,0 +1,16 @@
+com\mycompany\brazzarola\other\Formatta.class
+com\mycompany\brazzarola\entities\Post.class
+com\mycompany\brazzarola\servlets\LoginServlet.class
+com\mycompany\brazzarola\dao\PostDao.class
+com\mycompany\brazzarola\servlets\LogoutServlet.class
+com\mycompany\brazzarola\servlets\RegistrationServlet.class
+com\mycompany\brazzarola\entities\Commento_.class
+com\mycompany\brazzarola\dao\UtenteDao.class
+com\mycompany\brazzarola\servlets\CreaPostServlet.class
+com\mycompany\brazzarola\entities\Post_.class
+com\mycompany\brazzarola\dao\CommentoDao.class
+com\mycompany\brazzarola\entities\Utente_.class
+com\mycompany\brazzarola\dao\Dao.class
+com\mycompany\brazzarola\entities\Commento.class
+com\mycompany\brazzarola\entities\Utente.class
+com\mycompany\brazzarola\servlets\CommentaServlet.class
